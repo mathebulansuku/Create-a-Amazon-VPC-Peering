@@ -8,7 +8,7 @@ A VPC peering connection is a one-to-one networking connection between two VPCs 
 
 ## ARCHITECTURAL DIAGRAM: 
 
-![Screenshot](VPC Peering Architecture.png)
+[![Screenshot](VPC Peering Architecture.png)](https://github.com/mathebulansuku/Create-a-Amazon-VPC-Peering/blob/main/VPC%20Peering%20Architecture.png)
 
 
 ## Prerequisites
