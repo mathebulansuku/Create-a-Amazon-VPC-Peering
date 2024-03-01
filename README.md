@@ -5,12 +5,6 @@
 
 A VPC peering connection is a one-to-one networking connection between two VPCs that enables you to route traffic between them privately. Instances in either VPC can communicate with each other like they are in the same network. You can create a VPC peering connection between your own VPCs, in a VPC in another AWS account, or with a VPC in a different AWS Region. 
  
-
-## ARCHITECTURAL DIAGRAM: 
-
-![Screenshot](VPC Peering Architecture.png)
-
-
 ## Prerequisites
 
 Before we start, you should have created 2 VPCs with 2 subnets on each VPC. The 1st VPC should have a public subnet connected to the internet via an internet gateway. Provision an EC2 instance in the public subnet. 
@@ -18,7 +12,7 @@ In one of the subnets in the 2 second VPC, provision a DB instance that will be 
 
  
 
-In the AWS Management Console, on the Services menu, choose VPC. 
+### In the AWS Management Console, on the Services menu, choose VPC. 
 
 - Create 2 VPC and name them Requester and Acceptor VPC. 
 
